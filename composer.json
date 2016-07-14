@@ -1,0 +1,24 @@
+{
+    "name": "originalapp/hideprice",
+    "license": "OSL-3.0",
+    "type": "magento2-module",
+    "description": "",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0"
+    },
+
+    "authors":[
+        {
+            "name":"Abdellatif EL MIZEB",
+            "email":"aelmizeb@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Originalapp\\Hideprice\\": ""
+        }
+    }
+}
